@@ -1,4 +1,5 @@
 # Move A Thing
+:space_invader:
 
 I want to create a tiny game where you move a character around and do little tasks.
 
