@@ -22,6 +22,7 @@ texture = ExtResource( 2 )
 polygon = PoolVector2Array( -5.08888, 1.54091, -6.76315, 2.88455, -1.09506, 7.5135, 3.62836, 7.70244, 7.87943, 4.77392, 7.87943, -1.93333, 2.68369, -6.46781, -4.30698, -6.46781, -7.32996, -2.78355, -7.42444, 0.617317, -6.95209, 2.60115 )
 
 [node name="LeftWall" type="StaticBody2D" parent="."]
+editor/display_folded = true
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="LeftWall"]
 position = Vector2( -200.968, -728.189 )
@@ -35,6 +36,7 @@ texture = ExtResource( 3 )
 polygon = PoolVector2Array( 0, 0, 16, 0, 15.8061, 64.0926, 0.186001, 64.1434 )
 
 [node name="RightWall" type="StaticBody2D" parent="."]
+editor/display_folded = true
 position = Vector2( 1008.51, -1.08102 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RightWall"]
@@ -48,6 +50,7 @@ texture = ExtResource( 3 )
 polygon = PoolVector2Array( 0.636902, -0.149271, 15.9401, -0.149271, 16, 64, 0, 64 )
 
 [node name="BottomWall" type="StaticBody2D" parent="."]
+editor/display_folded = true
 position = Vector2( 682.826, -21.1232 )
 
 [node name="bounce-wall2" type="Polygon2D" parent="BottomWall"]
@@ -60,6 +63,7 @@ polygon = PoolVector2Array( -0.12904, -36.8544, 16.0126, -37.3661, 16.0126, 6.11
 polygon = PoolVector2Array( -667.501, 581.332, -667.659, 620.619, 324.813, 620.922, 324.813, 580.688 )
 
 [node name="BottomWall2" type="StaticBody2D" parent="."]
+editor/display_folded = true
 position = Vector2( 683.188, -580.678 )
 
 [node name="bounce-wall2" type="Polygon2D" parent="BottomWall2"]
